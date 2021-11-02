@@ -1,0 +1,113 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class App
+{
+    + main()
+    + start()
+}
+
+class Controller
+{
+    - Button: addItemButton
+    - TextField: listName
+    - TextField: itemName
+    - TextField: description
+    - DatePicker: datePicker
+    - ListView: itemList
+    - ObservableList: itemsObservableList
+
+    + newList()
+    + addItem()
+    + refresh()
+    + openLists()
+    + saveList()
+    + saveAllLists()
+    + deleteList()
+    + renameList()
+    + renameItem()
+    + editDate()
+    + editDescription()
+    + deleteItem()
+    + markComplete()
+    + displayAllItems()
+    + displayCompletedItems()
+    + displayIncompleteItems()
+}
+
+class AddList
+{
+    - ArrayList<String>: lists
+    - TextField: listName
+
+    + createNewList()
+    + nameList()
+    + updateChoiceBox()
+}
+
+class DelList
+{
+    + deleteList()
+}
+
+class Display
+{
+    + displayAll()
+    + displayComplete()
+    + displayIncomplete()
+}
+
+class Edit
+{
+    - LocalDate: date
+    - String: itemName
+    - String listName
+
+    + renameList()
+    + renameItem()
+    + redate()
+    + editDescription()
+    + deleteItem()
+}
+
+class Items
+{
+    - String: name
+    - String description
+    - LocalDate: date
+
+    + setName()
+    + getName()
+    + setDescription()
+    + getDescription()
+    + setDate()
+    + getDate()
+    + Items()
+    + toString()
+
+}
+
+class Open
+{
+    - ArrayList<String>: selectedLists
+
+    + open()
+}
+
+class SaveList
+{
+    + saveList()
+    + saveAllLists()
+}
+
+javafx.Application<|-- App
+App -- Controller
+Controller -- AddList
+Controller -- DelList
+Controller -- Display
+Controller -- Edit
+Controller -- Items
+Controller -- Open
+Controller -- SaveList
+
+@enduml
