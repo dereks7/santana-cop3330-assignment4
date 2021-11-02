@@ -9,20 +9,20 @@ public class SaveList
 {
     public void saveList()
     {
-        // whichever list was loaded in choice box
-        // use the ArrayList of the name to see which one is selected
-        // create a .txt file with the name of the list selected
-        // store this .txt file in the correct program folder of lists
+        // Whichever list was loaded in choice box
+        // Use the ArrayList of the name to see which one is selected
+        // Create a .txt file with the name of the list selected
+        // Store this .txt file in the correct program folder of lists
     }
 
     public void saveAllLists()
     {
-        // whichever lists were loaded in choice box
-        // use the ArrayList of their names to see which ones were selected
-        // create a .txt file with the names of the lists selected
-        // store these .txt files in the correct program folder of lists
-        // we need to loop through the lists and create a nested loop
-        // to loop through the items of that selected list
+        // Whichever lists were loaded in choice box
+        // Use the ArrayList of their names to see which ones were selected
+        // Create a .txt file with the names of the lists selected
+        // Store these .txt files in the correct program folder of lists
+        // We need to loop through the lists and create a nested loop
+        // To loop through the items of that selected list
         // if -> .txt file name is a duplicate, overwrite the file
         // else -> save the file in the correct program folder of lists
     }

@@ -23,10 +23,10 @@ public class Controller
     @FXML
     private void newList(Event event)
     {
-        // takes TextField listName from List Name text and creates
-        // list based off that name
-        // make variable to call class AddList
-        // call createNewList() from AddList class w/ AddList variable
+        // Takes TextField listName from List Name text and creates
+        // List based off that name
+        // Make variable to call class AddList
+        // Call createNewList() from AddList class w/ AddList variable
     }
 
     @FXML

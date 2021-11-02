@@ -9,11 +9,11 @@ public class DelList
 {
     public void deleteList()
     {
-        // user has selected a list and has selected the Delete List option
-        // from File menu dropdown
-        // use the TextField name of the list to loop through the ArrayList of lists in
-        // the program folder and find the .txt file equal to the name
-        // we then delete this index so one cannot open it from the ArrayList anymore
+        // User has selected a list and has selected the Delete List option
+        // From File menu dropdown
+        // Use the TextField name of the list to loop through the ArrayList of lists in
+        // The program folder and find the .txt file equal to the name
+        // We then delete this index so one cannot open it from the ArrayList anymore
         // if -> .txt file exists of name given
         //      delete that index from .txt
         //      delete that index from choice box

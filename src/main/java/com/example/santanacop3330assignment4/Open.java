@@ -16,10 +16,10 @@ public class Open
 
     public void open()
     {
-        // open the list's .txt that was selected from the choice box
-        // store it inside the selectedLists ArrayList
-        // create a loop to -> open all the lists of the names selected
-        // as long as their exists a file
+        // Open the list's .txt that was selected from the choice box
+        // Store it inside the selectedLists ArrayList
+        // Create a loop to -> open all the lists of the names selected
+        // As long as their exists a file
         // if -> file exists
         //      load .txt file
         // else -> print file "name" does not exist

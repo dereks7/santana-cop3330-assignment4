@@ -24,31 +24,31 @@ public class Items
 
     public String getName()
     {
-        // return the name
+        // Return the name
         return name;
     }
 
     public void setDescription(String description)
     {
-        // set description variable to what user inputted
+        // Set description variable to what user inputted
         // this.description = description;
     }
 
     public String getDescription()
     {
-        // return the description
+        // Return the description
         return description;
     }
 
     public void setDate(LocalDate date)
     {
-        // set date variable to what user inputted
+        // Set date variable to what user inputted
         this.date = date;
     }
 
     public LocalDate getDate()
     {
-        // return the date
+        // Return the date
         return date;
     }
 

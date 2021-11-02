@@ -25,12 +25,12 @@ class ControllerTest
     {
         // Test that item is added to a list selected
         // Create a variable of class Items
-        // call setName and pass itemName = "Hello"
-        // call getName and store it and check if it is added to .txt of the list
-        // call setDescription and pass description = "Hi I am Description"
-        // call getDescription and store it and check if it is added to .txt of the list
-        // call setDate and pass this.date (today's date) as parameter
-        // call getDate and store it and check that today's date is in the .txt file of the list
+        // Call setName and pass itemName = "Hello"
+        // Call getName and store it and check if it is added to .txt of the list
+        // Call setDescription and pass description = "Hi I am Description"
+        // Call getDescription and store it and check if it is added to .txt of the list
+        // Call setDate and pass this.date (today's date) as parameter
+        // Call getDate and store it and check that today's date is in the .txt file of the list
         // Check that all of these are in the ObservableList of items
     }
 
@@ -39,11 +39,11 @@ class ControllerTest
     {
         // Test a list was opened
         // Create a variable of class AddList
-        // call createNewList() to create a new list a have the name be called "Test1.txt"
+        // Call createNewList() to create a new list a have the name be called "Test1.txt"
         // Create a variable of class SaveList
-        // call saveList() for "Test1.txt"
+        // Call saveList() for "Test1.txt"
         // Create a variable of class Open
-        // call open() from Open and attempt to open "Test1.txt"
+        // Call open() from Open and attempt to open "Test1.txt"
     }
 
     @Test
@@ -51,10 +51,10 @@ class ControllerTest
     {
         // Test a list was saved
         // Create a variable of class AddList
-        // call createNewList() to create a new list a have the name be called "Test2.txt"
+        // Call createNewList() to create a new list a have the name be called "Test2.txt"
         // Create a variable of class SaveList
-        // call saveList() for "Test2.txt"
-        // search the program folder for the file named "Test2.txt"
+        // Call saveList() for "Test2.txt"
+        // Search the program folder for the file named "Test2.txt"
     }
 
     @Test
@@ -63,23 +63,23 @@ class ControllerTest
         // Test all lists were saved
         // Create a folder called "Save All Test"
         // Create a variable of class AddList
-        // loop through 5 times and call createNewList() each time
-        // so that 5 lists of names "List #n.txt" where n starts at 1
-        // and is the number of the list are created
+        // Loop through 5 times and call createNewList() each time
+        // So that 5 lists of names "List #n.txt" where n starts at 1
+        // And is the number of the list are created
         // Create a variable of class SaveList
-        // loop 5 times and call saveList() for all "List #n.txt"
-        // search the program folder for the files named "List #n.txt"
-        // and ensure that 1-5 are there
+        // Loop 5 times and call saveList() for all "List #n.txt"
+        // Search the program folder for the files named "List #n.txt"
+        // And ensure that 1-5 are there
     }
 
     @Test
     void deleteList_test()
     {
         // Test that a list was deleted
-        // create variables for classes DelList and AddList
-        // call createNewList() and set TextField listName = "TestList"
-        // call deleteList() and loop through ArrayList of lists and find "TestList"
-        // and delete it
+        // Create variables for classes DelList and AddList
+        // Call createNewList() and set TextField listName = "TestList"
+        // Call deleteList() and loop through ArrayList of lists and find "TestList"
+        // And delete it
         // Check that TestList does not exist by checking choice box to see if it is an option
     }
 
@@ -87,38 +87,38 @@ class ControllerTest
     void renameList_test()
     {
         // Test that a list was renamed
-        // create variables for classes AddList and Edit
-        // call createNewList() and set TextField listName = "RenameListTest"
-        // call renameList() and rename it to "RenamedList"
-        // check that the ArrayList of lists no longer contains "RenameListTest"
-        // and that it contains "RenamedList"
-        // also check choice box for "RenamedList" and make sure it does not contain "RenameListTest"
+        // Create variables for classes AddList and Edit
+        // Call createNewList() and set TextField listName = "RenameListTest"
+        // Call renameList() and rename it to "RenamedList"
+        // Check that the ArrayList of lists no longer contains "RenameListTest"
+        // And that it contains "RenamedList"
+        // Also check choice box for "RenamedList" and make sure it does not contain "RenameListTest"
     }
 
     @Test
     void renameItem_test()
     {
         // Test that an item was renamed
-        // created variable for classes AddList , Items , and Edit
-        // call createNewList() and make list of name "renameItemTest"
-        // call setName & getName with name = "name1"
-        // call setDescription & getDescription with description = "descr1"
-        // call setDate & getDate with date = "2021-01-01"
-        // call renameItem() and rename it to "Renamed"
-        // check that the list no longer contains "name1" and now contains "Renamed"
+        // Created variable for classes AddList , Items , and Edit
+        // Call createNewList() and make list of name "renameItemTest"
+        // Call setName & getName with name = "name1"
+        // Call setDescription & getDescription with description = "descr1"
+        // Call setDate & getDate with date = "2021-01-01"
+        // Call renameItem() and rename it to "Renamed"
+        // Check that the list no longer contains "name1" and now contains "Renamed"
     }
 
     @Test
     void editDate_test()
     {
         // Test that an item has a new date
-        // created variable for classes AddList , Items , and Edit
-        // call createNewList() and make list of name "redateItemTest"
-        // call setName & getName with name = "name2"
-        // call setDescription & getDescription with description = "descr2"
-        // call setDate & getDate with date = "2021-01-01"
-        // call redate() and redate it to "2021-02-02"
-        // check that the list contains "name2" and now contains that date "2021-02-02"
+        // Created variable for classes AddList , Items , and Edit
+        // Call createNewList() and make list of name "redateItemTest"
+        // Call setName & getName with name = "name2"
+        // Call setDescription & getDescription with description = "descr2"
+        // Call setDate & getDate with date = "2021-01-01"
+        // Call redate() and redate it to "2021-02-02"
+        // Check that the list contains "name2" and now contains that date "2021-02-02"
     }
 
     @Test

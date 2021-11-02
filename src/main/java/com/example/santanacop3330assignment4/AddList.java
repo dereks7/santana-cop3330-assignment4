@@ -15,14 +15,14 @@ public class AddList
 
     public void createNewList()
     {
-        // call nameList() to update the name
-        // then call updateChoiceBox() to add the name to the choice box
+        // Call nameList() to update the name
+        // Then call updateChoiceBox() to add the name to the choice box
     }
 
     @FXML
     private void nameList()
     {
-        // takes what user input in the List Name text field and makes it listName variable
+        // Takes what user input in the List Name text field and makes it listName variable
         // Store "listName" variable inside "lists" ArrayList
     }
 
