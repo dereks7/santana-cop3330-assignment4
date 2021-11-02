@@ -41,6 +41,8 @@ public class Controller
         // call getDescription to get the description of the item and store it
         // call setDate to set the date of the item pass datePicker as parameter
         // call getDate to get the date of the item and store it
+        // Call Items() and pass the date name and description as parameter
+        // Call toString() to be able to display it
         // Call refresh() to reset variables to then update it to a new item
     }
 
